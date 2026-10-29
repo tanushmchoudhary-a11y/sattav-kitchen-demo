@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us & Philosophy | Sattva Kitchen</title>
+  <meta name="description" content="Learn about Sattva Kitchen: our pure vegetarian culinary ethos, heirloom spice blending, mindful food preparation, and warm Indian hospitality.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+</head>
+<body data-page="about">
+
+  <!-- Header -->
+  <header class="header-wrapper">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo" aria-label="Sattva Kitchen Home">
+          <div class="brand-symbol">🌿</div>
+          <div class="brand-text">
+            <span class="brand-name">SATTVA <span>KITCHEN</span></span>
+            <span class="brand-tag">Pure Vegetarian Fine Dine</span>
+          </div>
+        </a>
+
+        <nav aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="menu.html" class="nav-link">Menu</a></li>
+            <li><a href="about.html" class="nav-link active">About</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="cart.html" class="cart-pill-btn" aria-label="View Shopping Cart">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+            <span>Cart</span>
+            <span class="cart-count-badge" style="display: none;">0</span>
+          </a>
+          <button type="button" class="menu-toggle-btn" id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-header">
+      <div class="brand-text">
+        <span class="brand-name">SATTVA <span>KITCHEN</span></span>
+        <span class="brand-tag">Pure Vegetarian</span>
+      </div>
+      <button type="button" id="mobile-drawer-close" aria-label="Close menu" style="color: var(--text-muted); font-size: 1.5rem; padding: 4px;">&times;</button>
+    </div>
+    <ul class="mobile-drawer-links">
+      <li><a href="index.html" class="mobile-drawer-link"><span>Home</span> <span>→</span></a></li>
+      <li><a href="menu.html" class="mobile-drawer-link"><span>Food Menu</span> <span>→</span></a></li>
+      <li><a href="about.html" class="mobile-drawer-link active"><span>Our Story & Philosophy</span> <span>→</span></a></li>
+      <li><a href="contact.html" class="mobile-drawer-link"><span>Contact & Location</span> <span>→</span></a></li>
+      <li><a href="cart.html" class="mobile-drawer-link"><span>My Cart & Checkout</span> <span>→</span></a></li>
+    </ul>
+    <div class="mobile-drawer-footer">
+      <a href="menu.html" class="btn btn-primary btn-block">Explore Menu</a>
+    </div>
+  </aside>
+
+  <!-- Banner -->
+  <section style="background: radial-gradient(circle at 50% 20%, #20271E 0%, var(--bg-main) 70%); padding: 5rem 0 3.5rem; border-bottom: 1px solid var(--border-subtle);">
+    <div class="container text-center">
+      <span class="section-label">Heritage & Passion</span>
+      <h1 style="margin-bottom: 0.85rem;">The Soul of <span class="text-gold">Sattva</span></h1>
+      <p class="section-desc">A celebration of mindful cooking, honest vegetarian traditions, and the timeless culinary wealth of India.</p>
+    </div>
+  </section>
+
+  <!-- Philosophy Story Split -->
+  <main>
+    <section class="section-py">
+      <div class="container">
+        <div class="split-content-grid">
+          <div>
+            <span class="section-label">Culinary Philosophy</span>
+            <h2 style="margin-bottom: 1.25rem;">Purity, Harmony & Nourishment</h2>
+            <p style="font-size: 1.05rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 1.25rem;">
+              The word <strong>Sattva</strong> represents the highest state of existence — one of balance, clarity, and life-giving purity. In traditional Indian food philosophy, what we eat directly shapes our mind, mood, and vitality.
+            </p>
+            <p style="line-height: 1.7; color: var(--text-muted); margin-bottom: 1.5rem;">
+              Our kitchen was conceived to present pure vegetarian cuisine not as a constraint, but as a rich, deeply satisfying celebration of nature's bounty. We draw upon treasured cooking techniques across the subcontinent: slow charcoal dum simmering, tandoor clay-pot roasting, wok tossing, and fragrant tempering in cow ghee.
+            </p>
+            <div style="background: var(--bg-card); border-left: 3px solid var(--accent-gold); padding: 1.25rem 1.5rem; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin-bottom: 2rem;">
+              <p style="font-style: italic; color: var(--text-primary); margin-bottom: 0.35rem; font-family: var(--font-heading); font-size: 1.1rem;">
+                "Food prepared with mindful devotion nourishes not just the body, but the spirit."
+              </p>
+              <span style="font-size: 0.82rem; color: var(--accent-gold); font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase;">— The Sattva Kitchen Kitchen Creed</span>
+            </div>
+            <a href="menu.html" class="btn btn-primary">
+              <span>Explore The Menu</span>
+              <span>→</span>
+            </a>
+          </div>
+          <div class="split-image-wrap">
+            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=80" alt="Slow-cooked authentic dal makhani in brass handi" loading="lazy">
+            <div class="split-image-badge">
+              <span class="veg-tag">Strict Pure Vegetarian</span>
+              <div style="font-size: 0.84rem; color: var(--text-primary); margin-top: 0.4rem; font-weight: 600;">Dedicated Veg Kitchen Utensils & Oils</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three Pillars of Craftsmanship -->
+    <section class="section-py" style="background: var(--bg-surface); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-label">Our Guiding Pillars</span>
+          <h2>The Craft Behind Every Dish</h2>
+          <p class="section-desc">We uphold rigorous standards from raw farm sourcing to the final fragrant tempering.</p>
+        </div>
+        <div class="steps-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+          <div class="step-card">
+            <div style="font-size: 2.2rem; color: var(--accent-gold); margin-bottom: 1rem;">🌾</div>
+            <h3>Farm Fresh Produce</h3>
+            <p>Every morning, crisp bell peppers, tender spinach, rich tomatoes, and farm-sourced herbs arrive at our kitchen doors. We believe quality ingredients require minimal intervention to shine.</p>
+          </div>
+          <div class="step-card">
+            <div style="font-size: 2.2rem; color: var(--accent-gold); margin-bottom: 1rem;">✨</div>
+            <h3>Stone-Ground Spices</h3>
+            <p>Instead of industrial pre-packaged powders, our masalas are roasted whole and stone-ground in small batches to preserve their essential aromatic oils, depth, and digestive qualities.</p>
+          </div>
+          <div class="step-card">
+            <div style="font-size: 2.2rem; color: var(--accent-gold); margin-bottom: 1rem;">🍲</div>
+            <h3>Slow, Mindful Cooking</h3>
+            <p>From slow-simmered black lentils cooked overnight to delicate soft cottage cheese made fresh daily, our recipes follow patient traditional steps that impart deep, authentic savor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hospitality Invitation CTA -->
+    <section class="section-py text-center">
+      <div class="container" style="max-width: 720px;">
+        <span class="section-label">Atithi Devo Bhava</span>
+        <h2 style="margin-bottom: 1.25rem;">Experience Pure Indian Hospitality</h2>
+        <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.65; margin-bottom: 2rem;">
+          Whether you are looking for an everyday wholesome lunch, a lavish festive celebration with family, or quick hot delivery to your home, we welcome you to discover the authentic warmth of Sattva Kitchen.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <a href="menu.html" class="btn btn-primary">Browse Full Menu</a>
+          <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 1.25rem;">
+            <div class="brand-symbol">🌿</div>
+            <div class="brand-text">
+              <span class="brand-name">SATTVA <span>KITCHEN</span></span>
+              <span class="brand-tag">Pure Vegetarian Fine Dine</span>
+            </div>
+          </a>
+          <p style="margin-bottom: 1.25rem;">
+            Celebrating the pure, vibrant culinary traditions of India. Wholesome vegetarian cuisine thoughtfully prepared and served with genuine warmth.
+          </p>
+          <div class="veg-tag">
+            <span class="veg-indicator"></span>
+            <span>100% Pure Vegetarian Kitchen</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Food Menu</a></li>
+            <li><a href="about.html">About Sattva</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="cart.html">View Cart & Checkout</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hours & Service</h4>
+          <p style="margin-bottom: 0.5rem;"><strong class="text-gold">Kitchen Hours:</strong></p>
+          <p style="margin-bottom: 1rem;" data-bind="opening-hours">Monday – Sunday: 11:30 AM – 11:00 PM</p>
+          <p style="margin-bottom: 0.5rem;"><strong class="text-green">Service Types:</strong></p>
+          <p>Dine-In • Takeaway • Home Delivery</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Direct Connect</h4>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <span data-bind="restaurant-address">Plot 42, Hill Road, Bandra West, Mumbai, Maharashtra 400050</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            <span data-bind="whatsapp-number">+91 9167184306</span>
+          </div>
+          <div style="margin-top: 1.25rem;">
+            <a href="https://wa.me/919167184306" class="btn btn-whatsapp btn-sm js-whatsapp-link" target="_blank" rel="noopener noreferrer">
+              <span>Order on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="copyright-year">2026</span> <strong data-bind="restaurant-name">Sattva Kitchen</strong>. All Rights Reserved. Pure Vegetarian Dining.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <span style="color: var(--text-dim);">Cash on Delivery & Pay on Pickup</span>
+          <a href="contact.html" class="text-gold">Need Assistance?</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/menu-data.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
